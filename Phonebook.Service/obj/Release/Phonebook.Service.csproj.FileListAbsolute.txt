@@ -1,0 +1,14 @@
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Service.dll
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Service.pdb
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Database.dll
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Repository.dll
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\EntityFramework.dll
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Database.pdb
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Database.dll.config
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Repository.pdb
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\Phonebook.Repository.dll.config
+C:\Apps\Phonebook\Phonebook.Service\bin\Release\EntityFramework.xml
+C:\Apps\Phonebook\Phonebook.Service\obj\Release\Phonebook.Service.csprojAssemblyReference.cache
+C:\Apps\Phonebook\Phonebook.Service\obj\Release\Phonebook.Service.csproj.CopyComplete
+C:\Apps\Phonebook\Phonebook.Service\obj\Release\Phonebook.Service.dll
+C:\Apps\Phonebook\Phonebook.Service\obj\Release\Phonebook.Service.pdb

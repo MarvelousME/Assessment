@@ -1,0 +1,13 @@
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Phonebook.Test.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Phonebook.Test.pdb
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Apps\Phonebook\Phonebook.Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Apps\Phonebook\Phonebook.Test\obj\Release\Phonebook.Test.csprojAssemblyReference.cache
+C:\Apps\Phonebook\Phonebook.Test\obj\Release\Phonebook.Test.csproj.CopyComplete
+C:\Apps\Phonebook\Phonebook.Test\obj\Release\Phonebook.Test.dll
+C:\Apps\Phonebook\Phonebook.Test\obj\Release\Phonebook.Test.pdb

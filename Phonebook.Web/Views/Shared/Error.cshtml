@@ -1,0 +1,17 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+    <hgroup>
+        <a class="btn btn-primary" href="/phonebook" role="button">
+            <i class="material-icons">arrow_back</i>
+            Go to Homepage
+        </a>
+
+        <h2>@ViewBag.Error</h2>
+        <h3 class="text-danger">@Model.Exception.Message</h3>
+
+        <h2 class="text-danger">An error occurred while processing your request.</h2>
+    </hgroup>
+       
+        
+    
+

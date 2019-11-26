@@ -1,0 +1,112 @@
+﻿@using MyToolkit.Html
+@model Phonebook.Web.ViewModels.PhonebookEditViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.FirstName == null || Model.FirstName == "")
+{
+    <h4>Add New Contact</h4>
+}
+else
+{
+    <h4>Edit Contact - @Model.FirstName @Model.LastName</h4>
+}
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header" data-background-color="purple">
+                    <h4 class="title">Contact</h4>
+                    <p class="category">Add or Edit Contact</p>
+                </div>
+                <div class="card-content">
+
+                    @using (Html.BeginForm("save", "phonebook"))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(model => model.Id)
+                        <table id="PhonebookEntryTable" style="width:100%">
+                            <tr>
+                                <td>
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            @Html.LabelFor(m => m.FirstName, new { @class = "control-label" })
+                                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.FirstName)
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            @Html.LabelFor(m => m.LastName, new { @class = "control-label" })
+                                            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.LastName)
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr />
+                                    @*@if (Model.Numbers == null)
+                                    {*@
+                                        @Html.LabelFor(m => m.Numbers, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.CollectionEditorFor(m => m.Numbers, "Editors/_PhoneBookNumberEditor", "/Phonebook/AddNumber",
+                                         "Add Number", new { @class = "btn btn-default" })
+                                        </div>
+                                    @*}
+                                    else
+                                    {
+                                        for (int i = 0; i < Model.Numbers.Count(); i++)
+                                        {
+                                            @Html.HiddenFor(model => model.Numbers[i].Id)
+                                            <div class="col-md-10">
+                                                @Html.EditorFor(model => model.Numbers[i].Number, new { @class = "form-control l col-md-2" })
+                                            </div>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(model => model.Numbers[i].PhoneBookTypeId, Model.ddlPhoneTypes, new { @class = "form-control l col-md-2" })
+                                            </div>
+                                        }
+                                    }
+                                  
+                                    <div class="col-md-10">
+                                        @Html.ActionLink("Add Number", "AddNumber","Phonebook", new { @class = "btn btn-default" })
+                                    </div>*@
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-success">
+                                <i class="material-icons">save</i>
+                                Save
+                            </button>
+                            <a href="/phonebook" class="btn btn-danger">Cancel</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(function () {
+            $(".selectpicker")
+                .selectpicker('setStyle', 'btn', 'remove')
+                .selectpicker('setStyle', 'btn-default', 'remove')
+                .selectpicker('setStyle', 'form-control', 'add');
+        });
+    </script>
+}

@@ -1,0 +1,10 @@
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\Phonebook.Database.dll.config
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\Phonebook.Database.dll
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\Phonebook.Database.pdb
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\EntityFramework.dll
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\EntityFramework.SqlServer.dll
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\EntityFramework.xml
+C:\Apps\Phonebook\Phonebook.Database\bin\Release\EntityFramework.SqlServer.xml
+C:\Apps\Phonebook\Phonebook.Database\obj\Release\Phonebook.Database.csproj.CopyComplete
+C:\Apps\Phonebook\Phonebook.Database\obj\Release\Phonebook.Database.dll
+C:\Apps\Phonebook\Phonebook.Database\obj\Release\Phonebook.Database.pdb
