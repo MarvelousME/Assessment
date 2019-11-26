@@ -16,8 +16,6 @@ namespace Phonebook.Database
 
         public PhonebookContext() : base("Name=PhonebookDBConnectionString")
         {
-            //System.Data.Entity.Database.SetInitializer(new CreateDatabaseIfNotExists<PhonebookContext>());
-
             System.Data.Entity.Database.SetInitializer(new PhonebookDBInitializer());
             Database.Initialize(true);
         }
@@ -81,24 +79,6 @@ namespace Phonebook.Database
 
             return base.SaveChanges();
         }
-
-        //public override int SaveChanges()
-        //{
-        //    try
-        //    {
-        //        return base.SaveChanges();
-        //    }
-        //    catch (DbEntityValidationException vex)
-        //    {
-        //        var exception = HandleDbEntityValidationException(vex);
-        //        throw;
-        //    }
-        //    catch (DbUpdateException dbu)
-        //    {
-        //        var exception = HandleDbUpdateException(dbu);
-        //        throw exception;
-        //    }
-        //}
 
         private object HandleDbEntityValidationException(DbEntityValidationException vex)
         {
